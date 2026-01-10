@@ -1,2 +1,2 @@
 # credit-risk-model
-A model to predict credit risk for Non-bank financial institutions
+A model to predict credit risk for non-bank financial institutions
