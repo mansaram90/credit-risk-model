@@ -1,113 +1,104 @@
-# credit-risk-model
-A model to predict credit risk for non-bank financial institutions
+# Credit Risk Prediction | Machine Learning & Deployment Project
 
-An end to end Credit Risk Modelling application built for Non Banking Financial Institution (NBFC) use cases.
-This project focuses on combining credit risk domain understanding with interpretable machine learning and applied statistics to support real world lending decisions.
+This project is an end to end Machine Learning application that predicts credit risk using customer demographic and financial data, deployed as an interactive Streamlit web app.
 
-📌 Project Overview
+The focus of this project is not only model building, but also production readiness, deployment debugging, and engineering best practices, similar to what is expected in real industry ML workflows.
 
-The goal of this project is to simulate how credit analysts assess borrower risk by translating raw customer and loan data into a risk driven decision framework.
+🔗 Live Application
+https://credit-risk-model-manish-mllearning.streamlit.app/
 
-The application allows a credit assessor to input borrower and loan details and evaluate risk using a trained ML model that prioritises interpretability, stability and business alignment.
+Business Problem
 
-🏦 Credit Risk Domain Concepts Covered
+Financial institutions must assess credit risk accurately to reduce defaults while maintaining customer accessibility.
+This application demonstrates how machine learning can support data driven credit decisions by evaluating multiple customer attributes in real time.
 
-This project is strongly rooted in lending and risk analytics concepts:
+What This Project Demonstrates
+Machine Learning Skills
 
-Loan to Income Ratio
+Feature engineering and preprocessing pipelines
 
-Credit Utilisation Ratio
+Handling numerical and categorical data consistently
 
-Delinquency Ratio and Average DPD
+Logistic Regression based credit risk classification
 
-Loan Tenure and Loan Amount
+Model persistence using joblib
 
-Open Loan Accounts
+Ensuring feature parity between training and inference
 
-Residence Type
+Engineering and Deployment Skills
 
-Loan Purpose and Loan Type
+Building a user facing ML application using Streamlit
 
-The focus was on ensuring every feature has clear business meaning and mirrors how risk is assessed in real NBFC workflows.
+Debugging model loading and dependency conflicts in cloud environments
 
-📊 Machine Learning and Statistical Approach
+Managing Python and library version compatibility
 
-Rather than using a black box model, the emphasis was on transparent and explainable modelling.
+Using requirements.txt and runtime.txt for reproducible builds
 
-Key techniques applied:
+Reading and interpreting deployment logs to resolve failures
 
-Weight of Evidence (WOE) for feature transformation
+Structuring ML projects for clean separation of UI, logic, and artifacts
 
-Information Value (IV) for feature selection
+Version Control and Collaboration
 
-Rank Ordering to validate monotonic risk behaviour
+Using Git and GitHub for source control
 
-KS Statistic to measure model discriminatory power
+Handling push conflicts and rebasing safely
 
-Optuna for hyperparameter tuning and optimisation
+Maintaining a clean, deployable repository structure
 
-Focus on model stability and interpretability, not just accuracy
-
-These techniques are commonly used in regulated financial environments where explainability is critical.
-
-🖥️ Application Interface
-
-The application provides a simple and intuitive interface for credit assessors:
-
-User friendly input of borrower and loan attributes
-
-Real time risk calculation
-
-Domain aligned terminology for non technical users
-
-Designed with business users in mind
-
-🛠️ Tech Stack
+Tech Stack
 
 Python
 
-Pandas, NumPy
+pandas, numpy
 
-Scikit learn
+scikit-learn
 
-XGBoost
+joblib
 
-Optuna
+Streamlit
 
-Streamlit (for application interface)
+Git, GitHub
 
-Applied statistics and ML best practices
+Project Structure
+credit-risk-model/
+│
+├── artifacts/
+│   ├── trained_model.joblib
+│   ├── scaler.joblib
+│
+├── main.py                 # Streamlit UI
+├── prediction_helper.py    # Inference & preprocessing logic
+├── requirements.txt        # Dependency management
+├── runtime.txt             # Python version pinning
+├── README.md
+└── .gitignore
 
-🎯 Key Learning Outcomes
+Key Learnings
 
-Stronger understanding of credit risk and lending workflows
+Production ML requires strict consistency between training and deployment environments
 
-Practical application of WOE, IV, KS and rank ordering
+Version mismatches can silently break deployed models
 
-Building ML models aligned with business decision making
+Deployment debugging is a core ML engineering skill
 
-Experience converting an ML model into a usable risk assessment tool
+Reproducibility and environment control are as important as model accuracy
 
-🚀 Future Improvements
+Why This Matters
 
-Model monitoring and stability tracking
+This project reflects how ML systems are built and deployed in practice, not just in notebooks. It demonstrates the ability to:
 
-Scorecard style risk banding
+Translate a business problem into an ML solution
 
-Explainability dashboards for business users
+Build reliable, deployable systems
 
-Integration with real loan origination workflows
+Troubleshoot real world deployment issues
 
-📬 Contact
+Author
 
-If you are interested in credit risk modelling, risk analytics or applied machine learning, feel free to connect with me on LinkedIn or reach out via GitHub.
+Manish Pareek
+Machine Learning and Data Science Enthusiast
+GitHub: https://github.com/mansaram90
 
-If you want, I can also:
 
-Add a Results and Evaluation section
-
-Create a Project Architecture diagram
-
-Tailor this README for banking vs fintech recruiters
-
-Write a short version for
