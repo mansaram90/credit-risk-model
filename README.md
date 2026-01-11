@@ -4,64 +4,64 @@ This project is an end to end Machine Learning application that predicts credit 
 
 The focus of this project is not only model building, but also production readiness, deployment debugging, and engineering best practices, similar to what is expected in real industry ML workflows.
 
-🔗 Live Application
+## 🔗 Live Application
 https://credit-risk-model-manish-mllearning.streamlit.app/
 
-Business Problem
+## Business Problem
 
 Financial institutions must assess credit risk accurately to reduce defaults while maintaining customer accessibility.
 This application demonstrates how machine learning can support data driven credit decisions by evaluating multiple customer attributes in real time.
 
-What This Project Demonstrates
-Machine Learning Skills
+## What This Project Demonstrates
+-Machine Learning Skills
 
-Feature engineering and preprocessing pipelines
+-Feature engineering and preprocessing pipelines
 
-Handling numerical and categorical data consistently
+-Handling numerical and categorical data consistently
 
-Logistic Regression based credit risk classification
+-Logistic Regression based credit risk classification
 
-Model persistence using joblib
+-Model persistence using joblib
 
-Ensuring feature parity between training and inference
+-Ensuring feature parity between training and inference
 
-Engineering and Deployment Skills
+-Engineering and Deployment Skills
 
-Building a user facing ML application using Streamlit
+-Building a user facing ML application using Streamlit
 
-Debugging model loading and dependency conflicts in cloud environments
+-Debugging model loading and dependency conflicts in cloud environments
 
-Managing Python and library version compatibility
+-Managing Python and library version compatibility
 
-Using requirements.txt and runtime.txt for reproducible builds
+-Using requirements.txt and runtime.txt for reproducible builds
 
-Reading and interpreting deployment logs to resolve failures
+-Reading and interpreting deployment logs to resolve failures
 
-Structuring ML projects for clean separation of UI, logic, and artifacts
+-Structuring ML projects for clean separation of UI, logic, and artifacts
 
-Version Control and Collaboration
+-Version Control and Collaboration
 
-Using Git and GitHub for source control
+-Using Git and GitHub for source control
 
-Handling push conflicts and rebasing safely
+-Handling push conflicts and rebasing safely
 
-Maintaining a clean, deployable repository structure
+-Maintaining a clean, deployable repository structure
 
-Tech Stack
+## Tech Stack
 
-Python
+-Python
 
-pandas, numpy
+-pandas, numpy
 
-scikit-learn
+-scikit-learn
 
-joblib
+-joblib
 
-Streamlit
+-Streamlit
 
-Git, GitHub
+-Git, GitHub
 
-Project Structure
+## Project Structure
 credit-risk-model/
 │
 ├── artifacts/
@@ -75,27 +75,27 @@ credit-risk-model/
 ├── README.md
 └── .gitignore
 
-Key Learnings
+## Key Learnings
 
-Production ML requires strict consistency between training and deployment environments
+-Stronger understanding of credit risk and lending workflows
 
-Version mismatches can silently break deployed models
+-Practical application of WOE, IV, KS and rank ordering
 
-Deployment debugging is a core ML engineering skill
+-Building ML models aligned with business decision making
 
-Reproducibility and environment control are as important as model accuracy
+-Experience converting an ML model into a usable risk assessment tool
 
-Why This Matters
+## Why This Matters
 
-This project reflects how ML systems are built and deployed in practice, not just in notebooks. It demonstrates the ability to:
+-This project reflects how ML systems are built and deployed in practice, not just in notebooks. It demonstrates the ability to:
 
-Translate a business problem into an ML solution
+-Translate a business problem into an ML solution
 
-Build reliable, deployable systems
+-Build reliable, deployable systems
 
-Troubleshoot real world deployment issues
+-Troubleshoot real world deployment issues
 
-Author
+## Author
 
 Manish Pareek
 Machine Learning and Data Science Enthusiast
